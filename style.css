@@ -48,13 +48,27 @@ img {
   border-radius: 10px;
 }
 
+.kate {
+  width: 100px;
+  height: 100px;
+}
+
+.masonic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .synth{
-  width:250px;
-  height: 250px;
-  padding-right: 12px;
+  width: 200px;
+  height: 140px
+  
 }
 
 .polaroid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
@@ -67,8 +81,9 @@ img {
 }
 
 .hobtitle {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-right: 12px;
+  padding-left: 20px;
 }
 
 .hobbies{
