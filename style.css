@@ -52,3 +52,13 @@ div.container {
   text-align: center;
   padding: 10px 20px
 }
+
+div.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E5E8E8;
+  color: #5D6D7E;
+  text-align: center;
+}
