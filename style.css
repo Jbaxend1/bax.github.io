@@ -36,29 +36,52 @@ h6 {
   padding-left: 12px;
 }
 
-
-img {
-  border-radius: 12px;
+.rec-header {
+  color: #5D6D7E;
+  border-radius: 25px;
+  border: 3px solid #dddddd;
+  background-color: #E5E8E8;
+  padding-left: 12px;
 }
 
-div.polaroid {
+img {
+  border-radius: 10px;
+}
+
+.synth{
+  width:250px;
+  height: 250px;
+  padding-right: 12px;
+}
+
+.polaroid {
   width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   align-content: center;
 }
 
-div.container {
+.container {
   text-align: center;
   padding: 10px 20px
 }
 
-div.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.hobtitle {
+  padding-top: 100px;
+  padding-right: 12px;
+}
+
+.hobbies{
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+}
+
+.footer {
+  position: static;
   width: 100%;
   background-color: #E5E8E8;
   color: #5D6D7E;
   text-align: center;
-}
+  border-radius: 12px;
+  }
